@@ -6,7 +6,6 @@ def isGoodDiff(arr):
             return  False
     return True
 
-
 def isInGoodOrder(arr):
     isIncreasing = False
     isDecreasing = False
@@ -34,9 +33,6 @@ def isSafeReport(arr):
         arr.insert(i, popedValue)
 
     return False
-
-
-
 
 with open("day2.txt", "r") as file:
     for line in file:
